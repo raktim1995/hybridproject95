@@ -25,6 +25,7 @@ public class Testcase extends BaseClass {
 		utilites.doubleclick(driver,ac.getAddbtn());
 		ac.addtocart();
 		utilites.alertPopup(driver);
+		System.out.println("Modified");
 	}
 	
 
